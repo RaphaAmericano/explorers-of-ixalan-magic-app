@@ -47,7 +47,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            React Redux - Explorers of Ixalan
+            React Redux - Explorers of Ixalan !
           </a>
         </span>
       </header>
