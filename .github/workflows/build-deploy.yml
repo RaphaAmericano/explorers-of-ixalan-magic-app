@@ -32,7 +32,7 @@ jobs:
 
     - name: Deploy
       run: |
-        git config --global user.name ${{ secrets.USER_NAME }}
-        git config --global user.email ${{ secrets.USER_EMAIL }}
+        git config --global user.name RaphaAmericano
+        git config --global user.email raphael@raphaelamericano.com.br
         git remote set-url origin https://github.com/RaphaAmericano/explorers-of-ixalan-magic-app
         npm run deploy
