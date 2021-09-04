@@ -2,7 +2,7 @@
   "name": "explorers-of-ixalan-magic-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RaphaAmericano.github.io/explorers-of-ixalan-magic-app",
+  "homepage": "http://raphaamericano.github.io/explorers-of-ixalan-magic-app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
