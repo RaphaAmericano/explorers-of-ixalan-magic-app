@@ -5,13 +5,16 @@
   "homepage": "http://raphaamericano.github.io/explorers-of-ixalan-magic-app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
+    "@saeris/typeface-beleren-bold": "^1.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "mana-font": "^1.14.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
-    "react-scripts": "4.0.3"
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1"
   },
   "scripts": {
     "predeploy": "npm run build",
