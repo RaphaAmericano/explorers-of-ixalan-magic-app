@@ -1,6 +1,8 @@
 import styled from "styled-components"
+import { motion } from 'framer-motion/dist/framer-motion';
 
-const Li = styled.li`
+export const Li = styled(motion.li)`
+    cursor: pointer;
     -webkit-box-flex: 0;
     flex: 0 1 250px;
     max-width: 250px;
@@ -91,9 +93,9 @@ const Li = styled.li`
             display: block;
         }
     }
-`
+`;
 
-const Img = styled.img`
+export const Img = styled.img`
     top: -50%;
     left: 0;
     width: 100%;
@@ -107,10 +109,10 @@ const Img = styled.img`
     object-fit: cover;
     object-position: center;
     filter: grayscale(100%);
-`
+`;
 
-const Content = styled.div`
-    heigth: 100%;
+export const Content = styled.div`
+    height: 100%;
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -125,17 +127,10 @@ const Content = styled.div`
     color: #FFF;
     font-weight: 7000;
     font-size: 1.75em;
-    transition: opacity: 350ms;
-    opacity: 0;
+    /* transition: opacity: 350ms; */
+    /* opacity: 0; */
     > small {
         font-weight: 300;
         margin-top: 0.25em;
     }
-`
-export default function(props){
-    return <Li>
-        {/* <Img src="https://randomuser.me/api/portraits/thumb/men/75.jpg"/> */}
-        <i class="ms ms-1 ms-cost ms-shadow ms-6x"></i>
-        <Content><i className="ms ms-u"></i></Content>
-    </Li>
-}
+`;

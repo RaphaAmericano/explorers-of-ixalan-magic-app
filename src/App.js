@@ -1,17 +1,20 @@
 import React from 'react';
-import './App.css';
 import '@saeris/typeface-beleren-bold';
 import 'mana-font/css/mana.min.css';
 
-import Honeycomb from './components/Honeycomb/Honeycomb';
-import Header from './components/Header/Header';
 
+import Header from './components/Header';
+import HoneycombContainter from './components/HoneycombContainer';
+import Honeycomb from './components/Honeycomb';
 
 function App() {
+
+  const items = Array(50).fill(<Honeycomb />)
+
   return (
-    <div className="App">
+    <div>
       <Header />
-      <Honeycomb />
+      <HoneycombContainter>{items}</HoneycombContainter>
     </div>
   );
 }

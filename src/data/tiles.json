@@ -1,0 +1,63 @@
+{   
+    "locals":["beach", "mountain", "ozazca"],
+    "events": [
+        {"name": "", "effect": "", "local": 0}
+    ],
+    "quests":[],
+    "sites":[],
+    "cost_1": [
+        { "type":"event","name": "Valuable Recon", "effect": "Create a Treasure Token. Look at any face-down tile."},
+        { "type":"event","name": "Valuable Recon", "effect": "Create a Treasure Token. Look at any face-down tile."},
+        { "type":"event","name": "Broadside Assault", "effect": "Deal 2 demage to each opponent."},
+        { "type":"event","name": "Broadside Assault", "effect": "Deal 2 demage to each opponent."},
+        { "type":"event","name": "From the Mists", "effect": "Put a permanent card with converted mana cost 3 or less from your hand onto the battlefield."},
+        { "type":"event","name": "From the Mists", "effect": "Put a permanent card with converted mana cost 3 or less from your hand onto the battlefield."},
+        { "type":"event","name": "Natural Defenses", "effect": "You create two Saproling tokens and an opponent of your choices creates one Saproling token."},
+        { "type":"event","name": "Rejuvenating Waters", "effect": "You gain 4 life and an opponent of your choice gains 2 life."},
+        { "type":"event","name": "Too Much to Carry", "effect": "You create two Treasure tokens and an opponent of your choice creates one Treasure token."},
+        { "type":"event","name": "Jungle's Bounty", "effect": "Create a Saproling token. Gain 2 life."},
+        { "type":"quest","name": "Plunder the Plunderers", "effect": "The next time combat damage is dealt to you, create two Treasure tokens."},
+        { "type":"quest","name": "Plunder the Plunderers", "effect": "The next time combat damage is dealt to you, create two Treasure tokens."},
+        { "type":"quest","name": "Study the Nine Rivers", "effect": "The next time you would draw a card, instead look at the top four cards of your library, then put one into your hand and the rest on the bottom of your library."},
+        { "type":"quest","name": "Study the Nine Rivers", "effect": "The next time you would draw a card, instead look at the top four cards of your library, then put one into your hand and the rest on the bottom of your library."},
+        { "type":"quest","name": "Sails Unfurled", "effect": "The next creature that enters the battlefield under your control enters with an additional +1/+1 counter on it, and it gains haste until end of turn."},
+        { "type":"quest","name": "Sails Unfurled", "effect": "The next creature that enters the battlefield under your control enters with an additional +1/+1 counter on it, and it gains haste until end of turn."},
+        { "type":"quest","name": "Cannons to Starboard", "effect": "The next time you deal combat damage to the player on your right, draw a card."},
+        { "type":"quest","name": "Cannons to Starboard", "effect": "The next time you deal combat damage to the player on your right, draw a card."},
+        { "type":"quest","name": "Cannons to Starboard", "effect": "The next time you deal combat damage to the player on your right, draw a card."},
+        { "type":"quest","name": "Cannons to Port", "effect": "The next time you deal combat damage to the player on your left, draw a card."},
+        { "type":"quest","name": "Dusk's Embrace", "effect": "The next time a creature you control dies, draw a card."},
+        { "type":"site","name": "Walls of Adanto", "effect": "Creatures can't attack you. An opponent may pay {1} to ignore this effect until end of turn."},
+        { "type":"site","name": "High and Dry, Pirates' Market", "effect": "At the beginning of your end step, you may discard a card. If you do, draw a card."}
+    ],
+    "cost_3":[
+        { "type":"event","name": "Wavering Allegiances", "effect": "Exchange control of two target creatures."},
+        { "type":"event","name": "Trespass at Spitfire Bastion", "effect": "Deal 3 damage to target creature or player."},
+        { "type":"event","name": "Savage Stirring", "effect": "Keep until your next turn. At the beginning of combat on each player's turn, that player may choose a creature. Until end of turn, that creature gets +3/+3, gains trample, and can't attack you."},
+        { "type":"event","name": "Turn Tail", "effect": "Return up to two target creatures controlled by different players to their owners' hands."},
+        { "type":"event","name": "Placate the Raptors", "effect": "Each opponent sacrifices a creature."},
+        { "type":"event","name": "Unwitting Accomplice", "effect": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."},
+        { "type":"event","name": "Deadly Challenge", "effect": "Choose two target creatures controlled by different players. Those creatures fight each other."},
+        { "type":"event","name": "Throw Overboard", "effect": "Destroy target creature you don't control."},
+        { "type":"event","name": "Secure the High Ground", "effect": "Keep until your next turn. Creatures can't attack you."},
+        { "type":"event","name": "Scrolls of Azcanta", "effect": "Each player draws two cards, then each of your opponents discards two cards."},
+        { "type":"quest","name": "Blade and Claw", "effect": "The next time you attack with exactly two creatures, untap them and they each get +2/+2 until end of turn."},
+        { "type":"quest","name": "Jade Reflection", "effect": "When you cast your next instant or sorcery spell, copy that spell, and you may choose new targets for the copy."},
+        { "type":"quest","name": "Prove Worthy", "effect": "The next time you deal combat damage to an opponent with the most life, create a Dinosaur token."},
+        { "type":"quest","name": "Can't Take It With You", "effect": "The next time an opponent leaves the game, draw two cards and create four Treasure tokens."},
+        { "type":"quest","name": "Blessing of the Shapers", "effect": "Your next creature enters the battlefield with three additional +1/+1 counters on it."},
+        { "type":"site","name": "Deeproot Tree", "effect": "At the beginning of your end step, put a +1/+1 counter on target creature you control."},
+        { "type":"site","name": "Gold-Laden Shipwreck", "effect": "At the beginning of your end step, create a Treasure token."},
+        { "type":"site","name": "Shrine to Ixalli", "effect": "At the beginning of your end step, create a Saproling token."}
+    ],
+    "cost_7": [
+        { "type":"event","name": "The Blood Fast Ends", "effect": "The Blood Fast Ends."},
+        { "type":"event","name": "Weather the Storm", "effect": "Each player discards their hand. Each opponent draws four cards. You draw seven cards and untap all lands you control."},
+        { "type":"event","name": "Ceratops Stampede", "effect": "Keep until your next turn. Whenever a creature attacks a player other than you, that creature gains double strike until end of turn."},
+        { "type":"event","name": "Rise From the Depths", "effect": "Put the top six cards of your library into your graveyard, then search your graveyard for a number of creature cards whose total power is 6 or less and put them onto the battlefield."},
+        { "type":"event","name": "Might of the Sun Empire", "effect": "Create a Dinosaur token, then put two +1/+1 counters on each creature you control."},
+        { "type":"event","name": "Melee at the Gates", "effect": "Keep until your next turn. Creatures your opponents control attack each turn if able. They can’t attack you."},
+        { "type":"site","name": "Orazca, the Golden City", "effect": " When you reveal this tile or take it from another player, draw two cards. At the beginning of your upkeep, draw two cards and deal 3 damage to each opponent."},
+    ]
+}
+

@@ -1,7 +1,6 @@
-import styled from "styled-components"
-import HoneycombCell from "./HoneycombCell";
+import styled from 'styled-components';
 
-const Ul = styled.ul`
+export const Container = styled.ul`
     display:-webkit-box;
     display: flex;
     flex-wrap: wrap;
@@ -15,9 +14,3 @@ const Ul = styled.ul`
     padding: 0;
     transform: translateY(80px);
 `;
-
-export default function(props){
-    return <Ul>
-        {Array(50).fill(<HoneycombCell />)}
-    </Ul>
-}
