@@ -134,3 +134,10 @@ export const Content = styled.div`
         margin-top: 0.25em;
     }
 `;
+export const Button = styled.button.attrs({ type: 'button'})`
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+`

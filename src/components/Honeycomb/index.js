@@ -1,6 +1,20 @@
-import { Li, Content, Img } from './styles';
+import { Li, Content, Img, Button } from './styles';
+import { useState } from 'react';
 
 const Honeycomb = ({ children }) => {
+
+    const [state, setState] = useState({
+      flip: false,
+      remove: false,
+      mark: false
+    })
+
+    const close = () => {
+      setState(prev => {
+        return {...prev, flip: false}
+      })
+    }
+
     return <Li
                 initial="divInitial"
                 animate="divAnimate"
@@ -19,8 +33,15 @@ const Honeycomb = ({ children }) => {
                   }
                 }}
                 >
-                <i className="ms ms-1 ms-cost ms-shadow ms-6x"></i>
-                <Content><i className="ms ms-u"></i></Content>
+                  <Button onClick={close}>
+                  {state.flip ? 
+                  <>
+                    <i className="ms ms-1 ms-cost ms-shadow ms-6x"></i>
+                    <Content><i className="ms ms-u"></i></Content>
+                  </>
+                  : <Content><i className="ms ms-u"></i></Content>
+                  }
+                  </Button>
             </Li>
         
 };
