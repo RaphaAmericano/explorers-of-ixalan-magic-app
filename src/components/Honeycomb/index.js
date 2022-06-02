@@ -1,4 +1,4 @@
-import { Li, Content, Img, Button } from './styles';
+import { Li, Content, Button } from './styles';
 import { useState } from 'react';
 
 const Honeycomb = ({ children }) => {
